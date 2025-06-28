@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JFT Basic Mock Test</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="login-screen">
+    <h2>Enter Password</h2>
+    <input type="password" id="password-input">
+    <button onclick="checkPassword()">Enter</button>
+    <p id="error-message"></p>
+  </div>
+
+  <div id="test-screen" style="display: none">
+    <div id="timer"></div>
+    <div id="test-container"></div>
+    <button id="submit-button" onclick="submitTest()">Submit Test</button>
+  </div>
+
+  <script src="questions.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
