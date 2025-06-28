@@ -1,5 +1,5 @@
 
-const PASSWORD = "jft2025";
+const PASSWORD = "Himawari789";
 let duration = 60 * 30;
 let timerInterval;
 
